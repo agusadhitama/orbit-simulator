@@ -1,0 +1,83 @@
+body{
+margin:0;
+background:#00040a;
+font-family:Orbitron, sans-serif;
+color:white;
+overflow:hidden;
+}
+
+canvas{
+position:absolute;
+top:0;
+left:0;
+}
+
+.panel{
+
+position:fixed;
+top:20px;
+left:20px;
+
+width:240px;
+padding:20px;
+
+background:rgba(0,0,0,0.45);
+border:1px solid rgba(0,255,255,0.4);
+
+border-radius:14px;
+
+backdrop-filter:blur(12px);
+
+box-shadow:
+0 0 25px rgba(0,255,255,0.25),
+inset 0 0 15px rgba(0,255,255,0.15);
+
+z-index:10;
+}
+
+h1{
+font-size:16px;
+letter-spacing:2px;
+color:#00f7ff;
+margin:0 0 10px 0;
+}
+
+button{
+
+background:transparent;
+border:1px solid #00eaff;
+color:#00eaff;
+
+padding:7px 12px;
+margin:4px;
+
+cursor:pointer;
+border-radius:6px;
+
+transition:0.2s;
+}
+
+button:hover{
+
+background:#00eaff;
+color:black;
+
+}
+
+.stats{
+margin-top:10px;
+font-size:13px;
+color:#aaa;
+}
+
+.credit{
+margin-top:15px;
+font-size:12px;
+color:#00eaff;
+opacity:0.7;
+}
+
+input[type=range]{
+width:120px;
+margin-left:10px;
+}

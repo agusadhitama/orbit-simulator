@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Orbit Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="panel">
+
+<h1>ORBIT SIMULATOR</h1>
+
+<div class="controls">
+<button onclick="addSatellite()">ADD SAT</button>
+<button onclick="removeSatellite()">REMOVE</button>
+
+<label>SPEED</label>
+<input type="range" id="speed" min="0.2" max="4" step="0.1" value="1">
+</div>
+
+<div class="stats">
+Satellites: <span id="count">1</span>
+</div>
+
+<div class="credit">
+by Agus Satria Adhitama
+</div>
+
+</div>
+
+<canvas id="space"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
